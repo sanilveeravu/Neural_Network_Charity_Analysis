@@ -32,9 +32,6 @@ Additional details on the results:
         3. Changing binning condition to reduce unique values of application type and all in the same scale. (72.59%)
         4. Here changed income amout to integer value by taking starting value of the range. (72.71%)
             ![Opt4](Resources/Opt4.png)
-    Though didn't get drastic improvement few of the changes let to increase accuracy by a small percentage.
-     
-
 
 ---
 
