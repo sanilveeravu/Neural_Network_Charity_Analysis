@@ -24,14 +24,14 @@ Additional details on the results:
     - Using 110 neurons in 2 layers to explore all the dimensions possible with the giving inputs. Used relu activation function as it can range from 0 to infinity. At the end sigmoid was used to classify successful or not.
     - For model accuracy could see at 72.57%. Though its helpful, need to explore options on making it more efficient over 80%.
     - To increase the performance of the model, several options were tested
-     1. Removed attributes - INCOME_AMT and one of SPECIAL_CONSIDERATION. This was tested as INCOME_AMT had 9 values in ranges and 0 being the majority of the values. (72.72%)
-     2. Change in Neural Network Structure (72.65%)
-        - Tried changing Neuron counts (80 / 40 / 20)
-        - Tried adding a hidden layers (3)
-        - Tried tanh activation function
-     3. Changing binning condition to reduce unique values of application type and all in the same scale. (72.59%)
-     4. Here changed income amout to integer value by taking starting value of the range. (72.71%)
-     ![Opt4](Resources/Opt4.png)
+        1. Removed attributes - INCOME_AMT and one of SPECIAL_CONSIDERATION. This was tested as INCOME_AMT had 9 values in ranges and 0 being the majority of the values. (72.72%)
+        2. Change in Neural Network Structure (72.65%)
+            - Tried changing Neuron counts (80 / 40 / 20)
+            - Tried adding a hidden layers (3)
+            - Tried tanh activation function
+        3. Changing binning condition to reduce unique values of application type and all in the same scale. (72.59%)
+        4. Here changed income amout to integer value by taking starting value of the range. (72.71%)
+            ![Opt4](Resources/Opt4.png)
     Though didn't get drastic improvement few of the changes let to increase accuracy by a small percentage.
      
 
