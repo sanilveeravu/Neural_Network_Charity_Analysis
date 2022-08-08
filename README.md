@@ -32,11 +32,13 @@ Additional details on the results:
         3. Changing binning condition to reduce unique values of application type and all in the same scale. (72.59%)
         4. Here changed income amout to integer value by taking starting value of the range. (72.71%)
             ![Opt4](Resources/Opt4.png)
+        5. On further analysis, with repeated names, tested adding names back into as features and classified all one time applicants in Other category. This improved the accuracy to 80.04%.
+            ![Opt5](Resources/Opt5.png)
 
 ---
 
 ## Summary
 
-Using Neural Network with several options could not get accuracy above 80%. As recommendations, first would be explore more options in Neural Networks combining changes to neuron/layer counts along with change in attributes.
+Using Neural Network with several options could not get accuracy above 80% until Name was added to the list. Though it works, it helps for existing applications but can give in accurate results for new applications. Hence checking further on attributes without name and testing different Neural Network size could help.
 
 Another model that could be recommended would be the randon forest classifier. This would help as it can consider multiple dimensions and the data is in a tabular format. This ensemble learning model is proven to be quick and efficient in these use cases.
